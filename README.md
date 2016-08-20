@@ -17,26 +17,27 @@ RUNNING THE SCRIPTS
 Without ROS
 
 (1) `Pixel-trainer` :
+
+                    
+  (1) Clone the repository : [Pixel-trainer-vw](https://github.com/pranaypratyush/Pixel-Trainer/tree/vw) 
+                    
+  (2) `cd` into the directory
                       
-                      (1) Clone the repository : [Pixel-trainer-vw](https://github.com/pranaypratyush/Pixel-Trainer/tree/vw) 
+  (3) Run `cmake .`
                       
-                      (2) `cd` into the directory
+  (4) Now run `./main path/to/the/imagefile`
                       
-                      (3) Run `cmake .`
+  (5) Labelling involves pressing a key and left clicking and dragging the mouse
                       
-                      (4) Now run `./main path/to/the/imagefile`
-                      
-                      (5) Labelling involves pressing a key and left clicking and dragging the mouse
-                      
-                          For labelling Yellow press Crtl key
+  For labelling Yellow press Crtl key
+                        
+  For labelling Green press Shift key
                           
-                          For labelling Green press Shift key
+  For labelling Red press Alt key
                           
-                          For labelling Red press Alt key
-                          
-                      (6) After labelling,click on the broom icon to save the hsv values to a `.txt` file
+  (6) After labelling,click on the broom icon to save the hsv values to a `.txt` file
                       
-                      (7) Click the `save` icon to save the image.
+  (7) Click the `save` icon to save the image.
 
 
 
