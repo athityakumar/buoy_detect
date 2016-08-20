@@ -55,7 +55,7 @@ Without ROS :-
   
 - Run `cmake .`
   
-- Then, run `./main path/to/the/imagefile`
+- Run `./main path/to/the/imagefile`
   
   
 
@@ -66,8 +66,8 @@ With ROS :-
   - Do `roscd`
   - Then `cd Kraken_3.0`
   - `rosmake [PACKAGE-NAME]`
-  - Then, open a new terminal window and execute `roscore`
-  - Then , in the original window, run `rosrun [package_name] [node_name]`
+  - Open a new terminal window and execute `roscore`
+  - In the original terminal window, run `rosrun [package_name] [node_name]`
 
 
 CONTRIBUTION
