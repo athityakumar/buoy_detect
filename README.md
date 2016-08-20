@@ -14,9 +14,10 @@ This repository contains the codes that uses ML (Machine Learning) techniques to
 RUNNING THE SCRIPTS
 -------------------
 
-Without ROS
+Without ROS :-
+------------------
 
-(1) `Pixel-trainer` :
+(*) `Pixel-trainer` :
 
                     
   (1) Clone the repository : [Pixel-trainer-vw](https://github.com/pranaypratyush/Pixel-Trainer/tree/vw) 
@@ -38,6 +39,29 @@ Without ROS
   (6) After labelling,click on the broom icon to save the hsv values to a `.txt` file
                       
   (7) Click the `save` icon to save the image.
+  
+  
+(*) `vw_detect` :
+
+  (1) `cd` into `vw-detect`
+  
+  (2) Run `cmake .`
+  
+  (3) Then, run `./main path/to/the/imagefile`
+  
+  
+
+With ROS :-
+------------
+### System Requirements
+
+- A full installation of ROS Indigo
+- `rosbuild` workspace
+
+
+
+
+
 
 
 
