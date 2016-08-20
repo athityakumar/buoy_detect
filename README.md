@@ -11,6 +11,14 @@ This repository contains the codes that uses ML (Machine Learning) techniques to
 
 (3) `Region-blower` : This module blows / colors the region within the buoy boundary detected by `vw_detect`.
 
+
+### System Requirements
+
+- A full installation of ROS Indigo
+- `rosbuild` workspace
+
+
+
 RUNNING THE SCRIPTS
 -------------------
 
@@ -53,16 +61,13 @@ Without ROS :-
 
 With ROS :-
 ------------
-### System Requirements
 
-- A full installation of ROS Indigo
-- `rosbuild` workspace
-
-
-
-
-
-
+  - Clone the directory in your `ROS_WORKSPACE`
+  - Do `roscd`
+  - Then `cd Kraken_3.0`
+  - `rosmake [PACKAGE-NAME]`
+  - Then, open a new terminal window and execute `roscore`
+  - Then , in the original window, run `rosrun [package_name] [node_name]`
 
 
 CONTRIBUTION
