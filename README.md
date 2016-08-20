@@ -28,7 +28,7 @@ Without ROS :-
 ### `Pixel-trainer` :
 
                     
-- Clone the repository : [Pixel-trainer-vw](https://github.com/pranaypratyush/Pixel-Trainer/tree/vw) 
+- Clone the repository : [Pixel-trainer_vw](https://github.com/pranaypratyush/Pixel-Trainer/tree/vw) 
                     
 - `cd` into the directory
                       
@@ -51,11 +51,21 @@ Without ROS :-
   
 ### `vw_detect` :
 
-- `cd` into `vw-detect`
+- `cd` into `vw_detect`
   
 - Run `cmake .`
   
 - Run `./main path/to/the/imagefile`
+
+
+### `region_growing`
+
+- `cd` into `region_growing`
+
+- Run `cmake .`
+
+- Run `./main path/to/the/imagefile`
+
   
   
 
@@ -64,10 +74,12 @@ With ROS :-
 
   - Clone the directory in your `ROS_WORKSPACE`
   - Do `roscd`
-  - Then `cd Kraken_3.0`
-  - `rosmake [PACKAGE-NAME]`
+  - Then `cd buoy_detect`
+  - `rosmake buoy_detect`
   - Open a new terminal window and execute `roscore`
-  - In the original terminal window, run `rosrun [package_name] [node_name]`
+  - In the original terminal window, run `rosrun buoy_detect [node_name]`, for example : 
+    -   `rosrun buoy_detect vw_detect` 
+    -   `rosrun buoy_detect region_growing`
 
 
 CONTRIBUTION
